@@ -264,6 +264,7 @@
               "method: POST",
               "service: " + $.params.name + "." + $.params.namespace + ":8000",
             ]),
+          "service.beta.kubernetes.io/alicloud-loadbalancer-address-type": "intranet"
         },  //annotations
       },
       spec: {
